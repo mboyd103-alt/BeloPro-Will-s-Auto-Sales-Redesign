@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Here you can start styling. ^_^
+
+	Honeydew 	    #D6E5D8		rgb(214, 229, 216)
+	Stormy Teal	    #146D7C		rgb(20, 109, 124)
+	Deep Space Blue #023047		rgb(2, 48, 71)
+	Copperwood	    #BC7313		rgb(188, 115, 19)
+	Baltic Blue	    #145887		rgb(20, 88, 135)
+	White 	      	#FFFFFF		rgb(255, 255, 255)
+	Black 		  	#000000		rgb(0, 0, 0)*/
+
+
+body {
+	background-image:url("../img/blurrybackground.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	 line-height: 3em;
+	word-spacing:0.05em;
+}
+
+h1{font-family:"Science Gothic";
+color:#146D7C;
+  font-size: 300%;
+  letter-spacing: 0.01em;
+  text-align: center;
+   margin: 3rem 0 0.5em 0;
+}
+h2{font-family:"Oswald";
+  margin: 1.5rem 0 1rem 0;
+  font-size: 250%;
+  letter-spacing: 0.02em;
+  text-align: center;
+color:#146D7C;
+ font-style:italic;
+padding:0.5em 0 0 0;}
+
+
+h3{font-family:"Roboto";
+text-align: center;
+color:#146D7C;
+ font-style:italic;
+}
+p{font-family:"Roboto Condensed";
+color:#023047;
+font-size: 200%;
+  letter-spacing: 0.02em;
+  text-align: justify;
+  padding: 1em;
+  max-width: 960px;
+}
+
+.sthree ul {
+	padding:1em;
+	list-style:none;
+}
+
+li {
+	list-style:none;
+}
+
+
+
+q{font-family:"Roboto Condensed";
+color:#023047;}
+
+nav ul {
+list-style:none;
+	color:orange;
+}
+nav li {
+	list-style:none;
+	color:orange;
+}
+
+nav a {
+	list-style:none;
+	color:orange;
+}
+
+label {
+	color:#146D7C;
+	font-weight:500;
+	font-size:150%;
+}
+
+input, textarea {
+	color:#146D7C;
+	border:none;
+	border-bottom: #146D7C solid 7px;
+	background-color: rgba(20, 109, 124, 0.1);
+	display:block;
+	width:100%;
+	margin-bottom:40px;
+	
+}
+
+a {
+	
+	text-decoration:none;
+	color:#146D7C;
+}
+
+.button [type="submit"] {
+	color:#146D7C;
+	border: #146D7C solid 4px;
+	padding:0.5em;
+	background-color:transparent;
+	border-radius:1em;
+	display:block;
+	margin:0 auto;
+	width:50%;
+	font-weight:500;
+	font-size:150%;
+}
+
+.button [type="submit"]:hover {	
+	background-color: rgba(20, 109, 124, 0.2);
+}
+
+form {
+	padding:0 5em 5em 5em;
+}
+footer{background-color:rgba(2, 48, 71,0.8);
+color:#D6E5D8;
+padding:0em;
+	margin:1em 0 0 0;
+	font-size:60%;
+background-size:cover;}
+
+footer p{color:#D6E5D8;}
+.navbar{background-color:#D6E5D8;}
+.navbar-brand {font-family:"Science Gothic"; 
+	color:#D6E5D8;}
+#sone {
+	padding-top:4rem;
+	min-height: 100vh;
+	width:100%;
+}
+.navbrand a {
+	color:#145887;
+	
+	font-size:150%;
+}
+
+#stwo {
+	padding-top:4rem;
+	min-height: 100vh;
+	width:100%;
+
+}
+
+.reasonheading {
+	padding: 0.5em 0 0 0;
+}
+.navtitle {
+	color:#145887;
+	font-weight:600;
+}
+.video {
+	position:relative;
+	width:100%;
+	height:0;
+	padding-top:56%;
+	padding-bottom:0;
+	box-shadow:0 2px 8px 0 rgba(63,69,81,0.16); 
+	margin-top: 1.6em; 
+	margin-bottom: 0.9em; 
+	overflow: hidden;
+	border-radius: 8px; 
+	will-change: transform;
+}
+iframe {
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	border: none; 
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+
+}
+.autofam {
+	width:100%;
+ padding:1em;
+	background-image:url("../img/autofamily.jpg");
+	background-repeat:no-repeat;
+	background-size:75%;
+	background-position:center center;
+	padding-bottom:700px;
+	
+}
+.family {
+width:100%;
+	padding:0 8em;
+	margin: 0 auto;
+	border: solid #BC7313 5px;
+	border-radius:3em;
+
+}
+
+.jerry {
+	background-image: url("../img/jerry.png");
+	background-repeat:no-repeat; 
+	padding-left: 300px;
+  background-size: 250px;
+  min-height: 32vh;
+  background-position: left top;
+}
+.danyelle {
+	background-image: url("../img/danyelle.png");
+	background-repeat:no-repeat; 
+	padding-right: 300px;
+  background-size: 250px;
+  min-height: 32vh;
+  background-position: right top;
+}
+.daniel {
+	background-image: url("../img/daniel.png");
+	background-repeat:no-repeat; 
+	padding-left: 300px;
+  background-size: 250px;
+  min-height: 32vh;
+  background-position: left top;}
+
+.container-fluid {
+	font-size:150%;
+}
+.home {
+	text-decoration:underline;
+	text-decoration-color:#BC7313;
+	text-decoration-style:solid;
+}
+.about {
+text-decoration:underline;
+	text-decoration-color:#BC7313;
+	text-decoration-style:solid;
+}
+.catalog {
+	text-decoration:underline;
+	text-decoration-color:#BC7313;
+	text-decoration-style:solid;
+}
+.contact {
+	text-decoration:underline;
+	text-decoration-color:#BC7313;
+	text-decoration-style:solid;
+}
+.logo {
+	width:40%;
+}
+.logos {
+	width:100%;
+	background-image: url("../img/logos - Edited.png");
+	background-repeat:no-repeat;
+	background-size:75%;
+	background-position:center center;
+	padding-bottom:200px;
+	
+}
+
+
+.reason {
+	display:flex;
+	margin:auto;
+	 padding: 0 2rem 2rem 2rem;
+  width: 100%;
+	background-image: url("../img/cardeal.jpg");
+	background-repeat:no-repeat; 
+	padding-right: 500px;
+  background-size: 450px;
+  min-height: 32vh;
+  background-position: right center;
+}
+
+.carone {
+	background-image: url("../img/flexford.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+	
+
+.cartwo {
+	background-image: url("../img/chevvyta.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carthree {
+	background-image: url("../img/fordfus.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+
+.carfour {
+	background-image: url("../img/fordex.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+
+.carfive {
+	background-image: url("../img/forded.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carsix {
+	background-image: url("../img/buicken.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carseven {
+	background-image: url("../img/dodgeney.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.careight {
+	background-image: url("../img/lincolnmkx.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carnine {
+	background-image: url("../img/nissanpath.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carten {
+	background-image: url("../img/buickren.jpg");
+	background-repeat:no-repeat; 
+	padding-left: 410px;
+ 	 background-size: 350px;
+	color:#023047;
+	list-style:none;
+	line-height:2em;
+	font-size:200%;
+	margin:1em 0 1em 0;
+}
+
+.carcatalog {
+	display:flex;
+}
+.cardriving {
+	width:100%;
+	padding: 0;
+}
+
+.cardrivingtwo{
+	width:100%;
+	padding: 45em 0 0em 0;
+}
+.sidebar {
+	text-align:center;
+	padding: 1em 5em;
+	border: #146D7C solid 4px;
+	border-radius:3em;
+	background-color:#D6E5D8;
+	margin:1em;
+	 
+}
+.sidebar a {
+	color:#146D7C;
+	border-bottom: #BC7313 dotted 1px;
+}
+
+.sidebar a :hover {
+	color:#BC7313;
+}  
+.sidebar p{
+	font-size:115%;
+	text-align:center;
+}
+.sidebar ul {
+	font-size:100%;
+}
+.sidebar li{
+	font-size:100%;
+}
+.phone { margin: 3rem 0 0.5em 0}
+
+.questions {display:flex;
+}
+.commonfaqs {
+	display:block;
+}
+.section {
+	padding:1em;
+	
+	
+}
+
+.section h3 {
+	font-size:110%;
+	font-style:normal;
+	font-weight:500;
+	padding:0;
+}
+
+.section p {
+	width:100%;
+	font-weight:400;
+	font-size:110%;
+	color:#023047;
+	text-align:center;
+	padding:0;
+}
+
+.section {
+	border: #146D7C solid 4px;
+	border-radius:3em;
+	margin:5em;
+}
+.commonfaqs p {
+font-size:120%;	
+}
+.commonfaqstwo
+{
+	display:block;
+}
+.commonfaqstwo p {
+font-size:120%;
+}
+.question {
+	font-weight:600;
+	padding:1em 1em 0 1em;
+	color:#146D7C;
+	text-align:center;
+	font-size:120%;
+	
+}
+
+.contactheading {
+	padding: 2.5em 0 0 0;
+	margin:0 auto;
+}
+
+
+.title {
+	font-weight:550;
+	border-bottom: solid #BC7313 4px;
+	padding:0;
+}
+#sthree {
+	padding-top:4rem;
+	min-height: 100vh;
+	width:100%;
+	display:block;
+}
+
+#sfour {
+	padding-top:4rem;
+	min-height: 100vh;
+	display:flex;
+	width:100%;
+}
+
