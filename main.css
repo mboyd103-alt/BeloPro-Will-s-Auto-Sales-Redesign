@@ -16,7 +16,7 @@
 
 
 body {
-	background-image:url("../img/blurrybackground.jpg");
+	background-image:url("blurrybackground.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -193,7 +193,7 @@ iframe {
 .autofam {
 	width:100%;
  padding:1em;
-	background-image:url("../img/autofamily.jpg");
+	background-image:url("autofamily.jpg");
 	background-repeat:no-repeat;
 	background-size:75%;
 	background-position:center center;
@@ -210,7 +210,7 @@ width:100%;
 }
 
 .jerry {
-	background-image: url("../img/jerry.png");
+	background-image: url("jerry.png");
 	background-repeat:no-repeat; 
 	padding-left: 300px;
   background-size: 250px;
@@ -218,7 +218,7 @@ width:100%;
   background-position: left top;
 }
 .danyelle {
-	background-image: url("../img/danyelle.png");
+	background-image: url("danyelle.png");
 	background-repeat:no-repeat; 
 	padding-right: 300px;
   background-size: 250px;
@@ -226,7 +226,7 @@ width:100%;
   background-position: right top;
 }
 .daniel {
-	background-image: url("../img/daniel.png");
+	background-image: url("daniel.png");
 	background-repeat:no-repeat; 
 	padding-left: 300px;
   background-size: 250px;
@@ -261,7 +261,7 @@ text-decoration:underline;
 }
 .logos {
 	width:100%;
-	background-image: url("../img/logos - Edited.png");
+	background-image: url("logos - Edited.png");
 	background-repeat:no-repeat;
 	background-size:75%;
 	background-position:center center;
@@ -275,7 +275,7 @@ text-decoration:underline;
 	margin:auto;
 	 padding: 0 2rem 2rem 2rem;
   width: 100%;
-	background-image: url("../img/cardeal.jpg");
+	background-image: url("cardeal.jpg");
 	background-repeat:no-repeat; 
 	padding-right: 500px;
   background-size: 450px;
@@ -284,7 +284,7 @@ text-decoration:underline;
 }
 
 .carone {
-	background-image: url("../img/flexford.jpg");
+	background-image: url("flexford.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -296,7 +296,7 @@ text-decoration:underline;
 	
 
 .cartwo {
-	background-image: url("../img/chevvyta.jpg");
+	background-image: url("chevvyta.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -307,7 +307,7 @@ text-decoration:underline;
 }
 
 .carthree {
-	background-image: url("../img/fordfus.jpg");
+	background-image: url("fordfus.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -319,7 +319,7 @@ text-decoration:underline;
 
 
 .carfour {
-	background-image: url("../img/fordex.jpg");
+	background-image: url("fordex.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -331,7 +331,7 @@ text-decoration:underline;
 
 
 .carfive {
-	background-image: url("../img/forded.jpg");
+	background-image: url("forded.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -343,7 +343,7 @@ text-decoration:underline;
 }
 
 .carsix {
-	background-image: url("../img/buicken.jpg");
+	background-image: url("buicken.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -355,7 +355,7 @@ text-decoration:underline;
 }
 
 .carseven {
-	background-image: url("../img/dodgeney.jpg");
+	background-image: url("dodgeney.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -367,7 +367,7 @@ text-decoration:underline;
 }
 
 .careight {
-	background-image: url("../img/lincolnmkx.jpg");
+	background-image: url("lincolnmkx.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -379,7 +379,7 @@ text-decoration:underline;
 }
 
 .carnine {
-	background-image: url("../img/nissanpath.jpg");
+	background-image: url("nissanpath.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
@@ -391,7 +391,7 @@ text-decoration:underline;
 }
 
 .carten {
-	background-image: url("../img/buickren.jpg");
+	background-image: url("buickren.jpg");
 	background-repeat:no-repeat; 
 	padding-left: 410px;
  	 background-size: 350px;
